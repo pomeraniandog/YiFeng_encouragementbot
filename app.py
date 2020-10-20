@@ -13,11 +13,11 @@ while True:
     
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("success is not permanent")
+      encouragement_list.append("success is not permanent, but good job")
       counter += 1
     if each_word == "disappointed":
       feelings_list.append("disappointed")
-      encouragement_list.append("there is always a next time to do well")
+      encouragement_list.append("there is always a next time to do well, keep your head up")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
@@ -25,7 +25,11 @@ while True:
       counter += 1
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("you will do better next time")
+      encouragement_list.append("you will do better next time,cheer up")
+      counter += 1
+    if each_word == "hopeless":
+      feelings_list.append("hopeless")
+      encouragement_list.append("look onto the bright side,there is still hope")
       counter += 1
 
   if counter == 0:
